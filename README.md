@@ -154,20 +154,16 @@ Building numerical-computing and array-programming fundamentals.
 * Data types
 * Indexing and slicing
 * Reshaping
-* Broadcasting
-* Vectorization
-* Mathematical operations
-* Aggregation
-* Random operations
-* Boolean indexing
 * Array manipulation
-* Numerical problem solving
+* Numerical operations
+* Vectorized operations
+* Problem solving
 
 📁 `Numpy/`
 
 📖 **[Explore NumPy →](./Numpy/)**
 
-**Status:** 🟢 In Progress
+**Status:** ✅ Completed
 
 ---
 
@@ -179,26 +175,30 @@ Learning to work with structured and real-world datasets.
 
 * Series
 * DataFrames
-* Data loading
-* Data cleaning
-* Missing values
-* Filtering
-* Sorting
-* GroupBy
-* Aggregation
-* Merging & joining
+* Data selection and indexing
+* Filtering and sorting
+* Missing-value handling
+* DataFrame manipulation
+* Merging and joining
+* GroupBy and aggregation
+* Pivot tables
+* Crosstabs
+* Applying functions
+* Feature extraction
 * Data transformation
-* Exploratory Data Analysis
+* Data analysis
 
 📁 `Pandas/`
 
-**Status:** 🔜 Next
+📖 **[Explore Pandas →](./Pandas/)**
+
+**Status:** ✅ Completed
 
 ---
 
 ## 📊 04 — Data Analysis & Visualization
 
-Learning to turn raw data into meaningful insights.
+Turning raw datasets into meaningful insights.
 
 **Tools:**
 
@@ -210,22 +210,22 @@ Learning to turn raw data into meaningful insights.
 
 * Exploratory Data Analysis
 * Statistical summaries
-* Correlation
+* Data visualization
 * Distributions
+* Correlation
 * Outlier detection
-* Visualization
 * Feature relationships
 * Data-driven insights
 
 📁 `Data-Analysis/`
 
-**Status:** 🔜 Upcoming
+**Status:** 🔥 **Current Focus**
 
 ---
 
 # 🤖 05 — MACHINE LEARNING
 
-Moving from data manipulation toward predictive and intelligent systems.
+Moving from data analysis toward predictive and intelligent systems.
 
 ### Supervised Learning
 
@@ -480,6 +480,10 @@ AI-ML-Learning/
 │   └── README.md
 │
 ├── Pandas/
+│   ├── Pandas_Core_Operations.ipynb
+│   ├── Feature_Extraction_with_Pandas.ipynb
+│   ├── Countries_Data_Analysis.ipynb
+│   └── README.md
 │
 ├── Data-Analysis/
 │
@@ -523,7 +527,7 @@ AI-ML-Learning/
 ## DATA & COMPUTING
 
 * [x] NumPy Fundamentals
-* [ ] Pandas
+* [x] Pandas
 * [ ] Data Analysis
 * [ ] Statistics
 * [ ] Linear Algebra
@@ -689,6 +693,15 @@ Because knowing the syntax is only the beginning.
                  AI ENGINEERING
 ```
 
+### Current Stage
+
+```text
+🐍 Python        🟢 In Progress
+🔢 NumPy         ✅ Completed
+🐼 Pandas        ✅ Completed
+📊 Data Analysis 🔥 CURRENT
+```
+
 **One layer at a time.**
 
 ---
@@ -752,3 +765,6 @@ The quality bar should keep moving upward.
 ### **This is the build log.**
 
 </div>
+
+
+
