@@ -1,45 +1,79 @@
-# NumPy
+# 🔢 NumPy — Numerical Computing & Array Programming
 
-A collection of NumPy concepts, implementations, and problem-solving exercises using Python.
+> **Building the numerical foundation for Machine Learning and AI.**
 
-## 📂 Contents
+This directory contains my **NumPy implementations, notes, and problem-solving practice**.
+
+The focus is not only on learning NumPy syntax, but on understanding how arrays, vectorized operations, indexing, reshaping, and numerical computation form the foundation of modern data science and machine learning.
+
+---
+
+## 📚 What's Inside
 
 ### 📘 NumPy Notes & Practice
+
 [`NumPy_Notes_and_Practice.ipynb`](./NumPy_Notes_and_Practice.ipynb)
 
-Covers:
+A structured notebook covering the core concepts I've worked through.
+
+**Topics include:**
+
 - NumPy arrays
 - Array creation
 - Multi-dimensional arrays
+- Array dimensions and shapes
 - Array generation functions
 - Array operations
 - Indexing and slicing
+- Array manipulation
+- Numerical operations
 - Practical implementations
 
+---
+
 ### 🧠 NumPy Exercises
+
 [`NumPy_Exercises.ipynb`](./NumPy_Exercises.ipynb)
 
-A collection of programming problems implemented using NumPy, including:
+Programming exercises designed to apply NumPy concepts through problem-solving rather than just theory.
+
+**Includes:**
+
 - Sudoku validation
 - Array-based problems
 - Data manipulation
-- Problem-solving exercises
+- Numerical problem solving
+- Logic-based exercises
+- Practical array operations
 
-## 🛠️ Technologies
+---
 
-- Python
-- NumPy
-- Google Colab
-- Jupyter Notebook
+## 🛠️ Tech Stack
 
-## 🎯 Focus
+| Technology | Purpose |
+|---|---|
+| 🐍 Python | Programming language |
+| 🔢 NumPy | Numerical computing |
+| 📓 Jupyter Notebook | Interactive development |
+| ☁️ Google Colab | Cloud-based execution |
 
-This folder focuses on numerical computing, array manipulation, data processing, and problem-solving with NumPy.
+---
 
-## 📁 Structure
+## 🎯 What I'm Developing
+
+Through these notebooks, I'm developing practical understanding of:
 
 ```text
-NumPy/
-├── NumPy_Notes_and_Practice.ipynb
-├── NumPy_Exercises.ipynb
-└── README.md
+Arrays
+  ↓
+Indexing & Slicing
+  ↓
+Array Manipulation
+  ↓
+Vectorized Operations
+  ↓
+Numerical Computation
+  ↓
+Problem Solving
+  ↓
+Foundation for Machine Learning
