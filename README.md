@@ -1,4 +1,3 @@
-
 # ⚡ AI/ML ENGINEERING — THE BUILD LOG
 
 <div align="center">
@@ -34,7 +33,7 @@ It contains my:
 - 🧪 Experiments
 - 🧩 Problem-solving practice
 - 🔬 Technical explorations
-- 🚀 Future AI/ML projects
+- 🚀 AI/ML projects as they are built
 
 This isn't meant to be a collection of copied tutorials.
 
@@ -99,11 +98,11 @@ The objective isn't just to train models.
              │                  │                  │
         FUNDAMENTALS         AI / ML          ENGINEERING
              │                  │                  │
-          Python          Machine Learning        Git
-        Mathematics       Deep Learning           APIs
-          NumPy           Computer Vision         Docker
-          Pandas          NLP                     Cloud
-        Statistics        Generative AI           MLOps
+          NumPy          Machine Learning        Git
+          Pandas         Deep Learning           APIs
+        Mathematics      Computer Vision         Docker
+        Statistics      NLP                     Cloud
+             │          Generative AI            MLOps
              │                  │                  │
              └──────────────────┼──────────────────┘
                                 │
@@ -115,32 +114,7 @@ The objective isn't just to train models.
 
 # 📚 LEARNING PATH
 
-## 🐍 01 — Python
-
-Building the programming foundation required for everything that follows.
-
-**Focus areas:**
-
-* Python fundamentals
-* Data types
-* Conditional statements
-* Loops
-* Functions
-* Lists, tuples, sets & dictionaries
-* Exception handling
-* File handling
-* Object-Oriented Programming
-* Modules & packages
-* Virtual environments
-* Clean and reusable code
-
-📁 `Python/`
-
-**Status:** 🟢 In Progress
-
----
-
-## 🔢 02 — NumPy
+## 🔢 01 — NumPy
 
 Building numerical-computing and array-programming fundamentals.
 
@@ -154,7 +128,7 @@ The detailed NumPy work is maintained separately inside the NumPy directory.
 
 ---
 
-## 🐼 03 — Pandas
+## 🐼 02 — Pandas
 
 Learning to work with structured and real-world datasets.
 
@@ -179,7 +153,7 @@ Learning to work with structured and real-world datasets.
 
 ---
 
-## 📊 04 — Data Analysis & Visualization
+## 📊 03 — Data Analysis & Visualization
 
 Learning to turn raw data into meaningful insights.
 
@@ -205,7 +179,7 @@ Learning to turn raw data into meaningful insights.
 
 ---
 
-# 🤖 05 — MACHINE LEARNING
+# 🤖 04 — MACHINE LEARNING
 
 Moving from data manipulation toward predictive and intelligent systems.
 
@@ -245,7 +219,7 @@ Moving from data manipulation toward predictive and intelligent systems.
 
 ---
 
-# 🧠 06 — DEEP LEARNING
+# 🧠 05 — DEEP LEARNING
 
 Moving from traditional machine learning toward neural systems.
 
@@ -276,7 +250,7 @@ Moving from traditional machine learning toward neural systems.
 
 ---
 
-# 👁️ 07 — COMPUTER VISION
+# 👁️ 06 — COMPUTER VISION
 
 Developing systems capable of understanding visual information.
 
@@ -301,7 +275,7 @@ Developing systems capable of understanding visual information.
 
 ---
 
-# 💬 08 — NLP
+# 💬 07 — NLP
 
 Working with language, text, and modern language models.
 
@@ -323,7 +297,7 @@ Working with language, text, and modern language models.
 
 ---
 
-# ✨ 09 — GENERATIVE AI
+# ✨ 08 — GENERATIVE AI
 
 Moving into modern AI systems and applications.
 
@@ -348,7 +322,7 @@ Moving into modern AI systems and applications.
 
 ---
 
-# ⚙️ 10 — AI ENGINEERING
+# ⚙️ 09 — AI ENGINEERING
 
 Turning models and AI capabilities into usable software.
 
@@ -452,8 +426,6 @@ A failed experiment is valuable when it teaches me **why something failed and ho
 ```text
 AI-ML-Learning/
 │
-├── Python/
-│
 ├── Numpy/
 │   ├── NumPy_Notes_and_Practice.ipynb
 │   ├── NumPy_Exercises.ipynb
@@ -490,10 +462,6 @@ AI-ML-Learning/
 
 ## FOUNDATION
 
-* [x] Python fundamentals
-* [x] Python functions
-* [x] Exception handling
-* [x] Basic OOP
 * [x] NumPy fundamentals
 * [ ] Pandas
 * [ ] Data Analysis
@@ -576,7 +544,7 @@ AI-ML-Learning/
 
 # 📊 LEARNING → ENGINEERING
 
-The progression I'm aiming for:
+The progression I'm building toward:
 
 ```text
           📖 CONCEPTS
@@ -628,34 +596,31 @@ Because knowing the syntax is only the beginning.
                   CURRENT MISSION
                          │
                          ▼
-                      PYTHON
+                       NUMPY
                          │
                          ▼
-                      NUMPY
+                      PANDAS
                          │
                          ▼
-                     PANDAS
+                  DATA ANALYSIS
                          │
                          ▼
-                 DATA ANALYSIS
+                MACHINE LEARNING
                          │
                          ▼
-               MACHINE LEARNING
-                         │
-                         ▼
-                DEEP LEARNING
+                 DEEP LEARNING
                          │
                          ▼
               COMPUTER VISION
                          │
                          ▼
-                       NLP
+                        NLP
                          │
                          ▼
-                GENERATIVE AI
+                 GENERATIVE AI
                          │
                          ▼
-                  AI AGENTS
+                   AI AGENTS
                          │
                          ▼
                  AI ENGINEERING
@@ -725,26 +690,3 @@ The quality bar should keep moving upward.
 
 </div>
 ```
-
-### The important change
-
-Your repository now has a clean **parent → child README system**:
-
-```text
-AI-ML-Learning
-│
-├── README.md          ← BIG PICTURE / YOUR ENGINEERING JOURNEY
-│
-├── Numpy
-│   ├── README.md      ← DETAILED NUMPY DOCUMENTATION
-│   ├── Notes.ipynb
-│   └── Exercises.ipynb
-│
-├── Pandas
-│   └── README.md      ← later
-│
-├── Machine-Learning
-│   └── README.md      ← later
-│
-└── ...
-
