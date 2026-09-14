@@ -15,30 +15,30 @@
 ![Scikit Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
-![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 </div>
 
+---
 
 ## 👋 ABOUT THIS REPOSITORY
 
-This repository is my **AI/ML engineering workspace**.
+Welcome to my **AI/ML Engineering workspace**.
 
-It documents my progression from learning the foundations of programming and mathematics to building intelligent, data-driven systems.
+This repository documents my journey of developing the knowledge, problem-solving ability, and engineering skills required to build intelligent systems.
 
-This is not intended to be a collection of copied tutorials.
+It contains my:
 
-It is a record of:
+- 📚 Learning notes
+- 💻 Implementations
+- 🧪 Experiments
+- 🧩 Problem-solving practice
+- 🔬 Technical explorations
+- 🚀 Future AI/ML projects
 
-- Concepts I have studied
-- Code I have implemented
-- Problems I have solved
-- Experiments I have conducted
-- Mistakes I have made
-- Systems I am building
-- Skills I am developing
+This isn't meant to be a collection of copied tutorials.
 
-The objective is simple:
+It is a **build log** — showing how concepts turn into practical skills over time.
 
 > **Learn → Understand → Implement → Experiment → Build → Improve → Ship**
 
@@ -46,67 +46,69 @@ The objective is simple:
 
 # 🎯 THE MISSION
 
-I am working toward becoming an **AI/ML Engineer** capable of taking an idea from a raw problem all the way to a working intelligent system.
+My goal is to become an **AI/ML Engineer** capable of taking a problem from an initial idea to a reliable, usable intelligent system.
 
-That means going beyond simply training models.
-
-The long-term goal is to understand the complete pipeline:
+That means developing skills across the complete pipeline:
 
 ```text
-                    PROBLEM
-                       │
-                       ▼
-                      DATA
-                       │
-                       ▼
-              DATA PREPROCESSING
-                       │
-                       ▼
-             FEATURE ENGINEERING
-                       │
-                       ▼
-                MODEL TRAINING
-                       │
-                       ▼
-                 EVALUATION
-                       │
-                       ▼
-                 OPTIMIZATION
-                       │
-                       ▼
-                  APPLICATION
-                       │
-                       ▼
-                      API
-                       │
-                       ▼
-                  DEPLOYMENT
-                       │
-                       ▼
-                  MONITORING
+                         PROBLEM
+                            │
+                            ▼
+                           DATA
+                            │
+                            ▼
+                   DATA PREPROCESSING
+                            │
+                            ▼
+                  FEATURE ENGINEERING
+                            │
+                            ▼
+                     MODEL TRAINING
+                            │
+                            ▼
+                       EVALUATION
+                            │
+                            ▼
+                      OPTIMIZATION
+                            │
+                            ▼
+                       APPLICATION
+                            │
+                            ▼
+                           API
+                            │
+                            ▼
+                       DEPLOYMENT
+                            │
+                            ▼
+                       MONITORING
 ````
+
+The objective isn't just to train models.
+
+**The objective is to understand and engineer the system around them.**
 
 ---
 
-# 🧠 WHAT I'M BUILDING TOWARD
+# 🧠 THE ROADMAP
 
 ```text
-                    AI / ML ENGINEER
-                           │
-          ┌────────────────┼────────────────┐
-          │                │                │
-     FUNDAMENTALS       AI/ML           ENGINEERING
-          │                │                │
-       Python        Machine Learning      Git
-       Mathematics   Deep Learning        APIs
-       NumPy         Computer Vision      Docker
-       Pandas        NLP                  Cloud
-       Statistics    Generative AI        MLOps
-          │                │                │
-          └────────────────┼────────────────┘
-                           │
-                           ▼
-                    INTELLIGENT SYSTEMS
+                         AI / ML ENGINEER
+                                │
+             ┌──────────────────┼──────────────────┐
+             │                  │                  │
+        FUNDAMENTALS         AI / ML          ENGINEERING
+             │                  │                  │
+          Python          Machine Learning        Git
+        Mathematics       Deep Learning           APIs
+          NumPy           Computer Vision         Docker
+          Pandas          NLP                     Cloud
+        Statistics        Generative AI           MLOps
+             │                  │                  │
+             └──────────────────┼──────────────────┘
+                                │
+                                ▼
+                     INTELLIGENT SYSTEMS
 ```
 
 ---
@@ -115,10 +117,12 @@ The long-term goal is to understand the complete pipeline:
 
 ## 🐍 01 — Python
 
-Building a strong programming foundation.
+Building the programming foundation required for everything that follows.
+
+**Focus areas:**
 
 * Python fundamentals
-* Variables & data types
+* Data types
 * Conditional statements
 * Loops
 * Functions
@@ -128,7 +132,9 @@ Building a strong programming foundation.
 * Object-Oriented Programming
 * Modules & packages
 * Virtual environments
-* Writing clean and reusable code
+* Clean and reusable code
+
+📁 `Python/`
 
 **Status:** 🟢 In Progress
 
@@ -136,24 +142,13 @@ Building a strong programming foundation.
 
 ## 🔢 02 — NumPy
 
-Developing strong numerical-computing fundamentals.
+Building numerical-computing and array-programming fundamentals.
 
-* Arrays
-* Dimensions & shapes
-* Array creation
-* Data types
-* Indexing & slicing
-* Reshaping
-* Broadcasting
-* Vectorization
-* Mathematical operations
-* Aggregation functions
-* Random number generation
-* Boolean indexing
-* Array manipulation
-* Practical exercises
+The detailed NumPy work is maintained separately inside the NumPy directory.
 
 📁 `Numpy/`
+
+📖 **[Explore NumPy →](./Numpy/)**
 
 **Status:** 🟢 In Progress
 
@@ -161,7 +156,9 @@ Developing strong numerical-computing fundamentals.
 
 ## 🐼 03 — Pandas
 
-Learning how to work with real-world datasets.
+Learning to work with structured and real-world datasets.
+
+**Focus areas:**
 
 * Series
 * DataFrames
@@ -184,22 +181,22 @@ Learning how to work with real-world datasets.
 
 ## 📊 04 — Data Analysis & Visualization
 
-Turning raw data into useful information.
+Learning to turn raw data into meaningful insights.
 
-### Libraries
+**Tools:**
 
 * Matplotlib
 * Seaborn
 * Plotly
 
-### Concepts
+**Focus areas:**
 
 * Exploratory Data Analysis
 * Statistical summaries
 * Correlation
 * Distributions
 * Outlier detection
-* Data visualization
+* Visualization
 * Feature relationships
 
 📁 `Data-Analysis/`
@@ -210,7 +207,7 @@ Turning raw data into useful information.
 
 # 🤖 05 — MACHINE LEARNING
 
-The transition from programming to intelligent systems.
+Moving from data manipulation toward predictive and intelligent systems.
 
 ### Supervised Learning
 
@@ -239,7 +236,7 @@ The transition from programming to intelligent systems.
 * Model Selection
 * Hyperparameter Tuning
 * Model Evaluation
-* Pipelines
+* ML Pipelines
 * Reproducible experiments
 
 📁 `Machine-Learning/`
@@ -250,7 +247,9 @@ The transition from programming to intelligent systems.
 
 # 🧠 06 — DEEP LEARNING
 
-Moving from traditional ML toward neural systems.
+Moving from traditional machine learning toward neural systems.
+
+**Focus areas:**
 
 * Neural Networks
 * Perceptrons
@@ -266,7 +265,7 @@ Moving from traditional ML toward neural systems.
 * LSTMs
 * Transformers
 
-### Frameworks
+**Frameworks:**
 
 * PyTorch
 * TensorFlow
@@ -279,7 +278,9 @@ Moving from traditional ML toward neural systems.
 
 # 👁️ 07 — COMPUTER VISION
 
-Teaching machines to understand visual information.
+Developing systems capable of understanding visual information.
+
+**Focus areas:**
 
 * Image processing
 * Image classification
@@ -302,18 +303,19 @@ Teaching machines to understand visual information.
 
 # 💬 08 — NLP
 
-Working with language and text.
+Working with language, text, and modern language models.
+
+**Focus areas:**
 
 * Text preprocessing
 * Tokenization
-* Stopwords
 * Stemming & lemmatization
 * TF-IDF
 * Word embeddings
 * Text classification
 * Sequence models
-* Transformers
 * Attention mechanisms
+* Transformers
 
 📁 `NLP/`
 
@@ -323,7 +325,9 @@ Working with language and text.
 
 # ✨ 09 — GENERATIVE AI
 
-Moving into modern AI systems.
+Moving into modern AI systems and applications.
+
+**Focus areas:**
 
 * Large Language Models
 * Transformers
@@ -346,7 +350,7 @@ Moving into modern AI systems.
 
 # ⚙️ 10 — AI ENGINEERING
 
-Turning models into usable systems.
+Turning models and AI capabilities into usable software.
 
 ### Backend
 
@@ -378,68 +382,68 @@ Turning models into usable systems.
 
 # 🧪 HOW I LEARN
 
-I don't consider something "learned" just because I watched a video about it.
+I don't consider something learned simply because I watched a tutorial.
 
-My learning loop is:
+My learning process is:
 
 ```text
              📖 LEARN
                 │
                 ▼
-           🧠 UNDERSTAND
+          🧠 UNDERSTAND
                 │
                 ▼
-           💻 IMPLEMENT
+          💻 IMPLEMENT
                 │
                 ▼
-            🧪 EXPERIMENT
+          🧪 EXPERIMENT
                 │
                 ▼
-             🐛 DEBUG
+            🐛 DEBUG
                 │
                 ▼
-             🛠️ BUILD
+            🛠️ BUILD
                 │
                 ▼
-             📈 IMPROVE
+            📈 IMPROVE
                 │
                 ▼
-              🚀 SHIP
+             🚀 SHIP
 ```
 
-The objective is to turn **knowledge into capability**.
+The goal is to turn **knowledge into capability**.
 
 ---
 
 # 🧪 EXPERIMENT LAB
 
-Not everything here will be polished.
+Not everything I build will be perfect.
 
 Some experiments will work.
 
-Some won't.
+Some will fail.
 
-Some will be completely rebuilt.
+Some will be rebuilt from scratch.
 
-That's part of engineering.
+That's part of the process.
 
 ```text
-Idea
+IDEA
  ↓
-Implementation
+IMPLEMENTATION
  ↓
-Experiment
+EXPERIMENT
  ↓
-Failure
+FAILURE
  ↓
-Analysis
+ANALYSIS
  ↓
-Iteration
+ITERATION
  ↓
-Improvement
+IMPROVEMENT
 ```
 
-I want this repository to contain the **process**, not just the final answers.
+A failed experiment is valuable when it teaches me **why something failed and how to improve it.**
 
 ---
 
@@ -449,13 +453,11 @@ I want this repository to contain the **process**, not just the final answers.
 AI-ML-Learning/
 │
 ├── Python/
-│   ├── Fundamentals/
-│   ├── OOP/
-│   └── Practice/
 │
 ├── Numpy/
-│   └── NumPy_Notes_and_Practice.ipynb
-│   └── NumPy_Exercises.ipynb
+│   ├── NumPy_Notes_and_Practice.ipynb
+│   ├── NumPy_Exercises.ipynb
+│   └── README.md
 │
 ├── Pandas/
 │
@@ -480,11 +482,13 @@ AI-ML-Learning/
 └── README.md
 ```
 
+> Each major area will have its own documentation as the repository grows.
+
 ---
 
-# 📈 PROGRESS
+# 📈 CURRENT PROGRESS
 
-### FOUNDATION
+## FOUNDATION
 
 * [x] Python fundamentals
 * [x] Python functions
@@ -497,7 +501,7 @@ AI-ML-Learning/
 * [ ] Linear Algebra
 * [ ] Probability
 
-### MACHINE LEARNING
+## MACHINE LEARNING
 
 * [ ] Regression
 * [ ] Classification
@@ -508,7 +512,7 @@ AI-ML-Learning/
 * [ ] Hyperparameter Tuning
 * [ ] ML Pipelines
 
-### DEEP LEARNING
+## DEEP LEARNING
 
 * [ ] Neural Networks
 * [ ] Backpropagation
@@ -517,7 +521,7 @@ AI-ML-Learning/
 * [ ] PyTorch
 * [ ] Transformers
 
-### AI
+## AI
 
 * [ ] NLP
 * [ ] Generative AI
@@ -527,7 +531,7 @@ AI-ML-Learning/
 * [ ] AI Agents
 * [ ] Multimodal AI
 
-### ENGINEERING
+## ENGINEERING
 
 * [ ] FastAPI
 * [ ] Docker
@@ -542,71 +546,37 @@ AI-ML-Learning/
 
 ### Languages
 
-```text
-Python
-C / C++
-JavaScript
-```
+`Python` `C/C++` `JavaScript`
 
 ### Data & Scientific Computing
 
-```text
-NumPy
-Pandas
-Matplotlib
-Seaborn
-```
+`NumPy` `Pandas` `Matplotlib` `Seaborn`
 
 ### Machine Learning
 
-```text
-Scikit-learn
-XGBoost
-```
+`Scikit-learn` `XGBoost`
 
 ### Deep Learning
 
-```text
-PyTorch
-TensorFlow
-```
+`PyTorch` `TensorFlow`
 
 ### Computer Vision
 
-```text
-OpenCV
-MediaPipe
-YOLO
-```
+`OpenCV` `MediaPipe` `YOLO`
 
 ### Generative AI
 
-```text
-LLMs
-Transformers
-RAG
-Embeddings
-Vector Databases
-AI Agents
-```
+`LLMs` `Transformers` `RAG` `Embeddings` `Vector Databases` `AI Agents`
 
 ### Engineering
 
-```text
-Git
-GitHub
-Google Colab
-VS Code
-FastAPI
-Docker
-Cloud
-```
+`Git` `GitHub` `Google Colab` `VS Code` `FastAPI` `Docker` `Cloud`
 
 ---
 
 # 📊 LEARNING → ENGINEERING
 
-The ultimate progression:
+The progression I'm aiming for:
 
 ```text
           📖 CONCEPTS
@@ -627,7 +597,7 @@ The ultimate progression:
        🌍 REAL-WORLD IMPACT
 ```
 
-I want every major technology I learn to eventually answer one question:
+Every major technology should eventually answer:
 
 > **"What can I build with this?"**
 
@@ -635,7 +605,7 @@ I want every major technology I learn to eventually answer one question:
 
 # 🧩 ENGINEERING MINDSET
 
-I'm deliberately developing the habit of asking:
+I'm developing the habit of asking:
 
 * Why does this work?
 * What happens under the hood?
@@ -679,6 +649,9 @@ Because knowing the syntax is only the beginning.
               COMPUTER VISION
                          │
                          ▼
+                       NLP
+                         │
+                         ▼
                 GENERATIVE AI
                          │
                          ▼
@@ -688,15 +661,21 @@ Because knowing the syntax is only the beginning.
                  AI ENGINEERING
 ```
 
-One layer at a time.
+**One layer at a time.**
 
 ---
 
 # 🚀 THE END GOAL
 
-I don't want to become someone who only knows how to train a model.
+I don't want to become someone who only knows how to call:
 
-I want to become an engineer who can take a problem from:
+```python
+model.fit(X, y)
+```
+
+I want to become an engineer capable of understanding and building the systems around the model.
+
+From:
 
 ```text
 IDEA
@@ -714,7 +693,25 @@ DEPLOYMENT
 MONITORING
 ```
 
-and understand every important layer in between.
+The goal is to understand every important layer in between.
+
+---
+
+# 🌐 THE STANDARD
+
+This repository will evolve with my skills.
+
+Early entries may be notes and implementations.
+
+Later entries will become experiments.
+
+Then complete systems.
+
+Then production-oriented AI applications.
+
+The quality bar should keep moving upward.
+
+> **Learn deeply. Build relentlessly. Engineer intelligently.**
 
 ---
 
@@ -722,9 +719,32 @@ and understand every important layer in between.
 
 # ⚡ LEARN. BUILD. BREAK. IMPROVE.
 
-### The repository will evolve as my skills evolve.
+### This is not the destination.
 
-**This is the build log.**
+### **This is the build log.**
 
 </div>
+```
+
+### The important change
+
+Your repository now has a clean **parent → child README system**:
+
+```text
+AI-ML-Learning
+│
+├── README.md          ← BIG PICTURE / YOUR ENGINEERING JOURNEY
+│
+├── Numpy
+│   ├── README.md      ← DETAILED NUMPY DOCUMENTATION
+│   ├── Notes.ipynb
+│   └── Exercises.ipynb
+│
+├── Pandas
+│   └── README.md      ← later
+│
+├── Machine-Learning
+│   └── README.md      ← later
+│
+└── ...
 
