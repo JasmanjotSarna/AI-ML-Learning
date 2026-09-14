@@ -1,6 +1,4 @@
-Yes. Here is **everything in ONE single copy-paste block**. Copy from `# ⚡` all the way to the final `</div>` and paste it into your GitHub `README.md`.
 
-````markdown
 # ⚡ AI/ML ENGINEERING — THE BUILD LOG
 
 <div align="center">
@@ -21,7 +19,6 @@ Yes. Here is **everything in ONE single copy-paste block**. Copy from `# ⚡` al
 
 </div>
 
----
 
 ## 👋 ABOUT THIS REPOSITORY
 
