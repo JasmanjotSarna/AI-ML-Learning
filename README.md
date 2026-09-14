@@ -4,7 +4,7 @@
 
 # 🧠 AI / ML ENGINEERING JOURNEY
 
-### Learning the fundamentals. Building the systems. Engineering the future.
+### Learning the fundamentals. Building intelligent systems. Engineering the future.
 
 <br>
 
@@ -20,7 +20,7 @@
 
 ---
 
-## 👋 ABOUT THIS REPOSITORY
+# 👋 ABOUT THIS REPOSITORY
 
 Welcome to my **AI/ML Engineering workspace**.
 
@@ -33,11 +33,11 @@ It contains my:
 - 🧪 Experiments
 - 🧩 Problem-solving practice
 - 🔬 Technical explorations
-- 🚀 AI/ML projects as they are built
+- 🚀 Projects and AI systems as they are built
 
-This isn't meant to be a collection of copied tutorials.
+This is not meant to be a collection of copied tutorials.
 
-It is a **build log** — showing how concepts turn into practical skills over time.
+It is a **build log** — showing how concepts turn into practical engineering skills over time.
 
 > **Learn → Understand → Implement → Experiment → Build → Improve → Ship**
 
@@ -85,7 +85,7 @@ That means developing skills across the complete pipeline:
 
 The objective isn't just to train models.
 
-**The objective is to understand and engineer the system around them.**
+**The objective is to understand and engineer the systems around them.**
 
 ---
 
@@ -98,11 +98,11 @@ The objective isn't just to train models.
              │                  │                  │
         FUNDAMENTALS         AI / ML          ENGINEERING
              │                  │                  │
-          NumPy          Machine Learning        Git
-          Pandas         Deep Learning           APIs
-        Mathematics      Computer Vision         Docker
-        Statistics      NLP                     Cloud
-             │          Generative AI            MLOps
+          Python          Machine Learning        Git
+          NumPy           Deep Learning           APIs
+          Pandas          Computer Vision         Docker
+        Mathematics       NLP                     Cloud
+        Statistics       Generative AI            MLOps
              │                  │                  │
              └──────────────────┼──────────────────┘
                                 │
@@ -114,11 +114,54 @@ The objective isn't just to train models.
 
 # 📚 LEARNING PATH
 
-## 🔢 01 — NumPy
+## 🐍 01 — Python Foundations
+
+Building the programming foundation required for data science, machine learning, and AI engineering.
+
+**Focus areas:**
+
+* Python fundamentals
+* Data types
+* Operators
+* Conditional statements
+* Loops
+* Functions
+* Lists, tuples, sets & dictionaries
+* Exception handling
+* File handling
+* Object-Oriented Programming
+* Modules & packages
+* Virtual environments
+* Clean and reusable code
+
+📁 `Python/`
+
+📖 **[Explore Python →](./Python/)**
+
+**Status:** 🟢 In Progress
+
+---
+
+## 🔢 02 — NumPy
 
 Building numerical-computing and array-programming fundamentals.
 
-The detailed NumPy work is maintained separately inside the NumPy directory.
+**Focus areas:**
+
+* NumPy arrays
+* Dimensions and shapes
+* Array creation
+* Data types
+* Indexing and slicing
+* Reshaping
+* Broadcasting
+* Vectorization
+* Mathematical operations
+* Aggregation
+* Random operations
+* Boolean indexing
+* Array manipulation
+* Numerical problem solving
 
 📁 `Numpy/`
 
@@ -128,7 +171,7 @@ The detailed NumPy work is maintained separately inside the NumPy directory.
 
 ---
 
-## 🐼 02 — Pandas
+## 🐼 03 — Pandas
 
 Learning to work with structured and real-world datasets.
 
@@ -153,7 +196,7 @@ Learning to work with structured and real-world datasets.
 
 ---
 
-## 📊 03 — Data Analysis & Visualization
+## 📊 04 — Data Analysis & Visualization
 
 Learning to turn raw data into meaningful insights.
 
@@ -172,6 +215,7 @@ Learning to turn raw data into meaningful insights.
 * Outlier detection
 * Visualization
 * Feature relationships
+* Data-driven insights
 
 📁 `Data-Analysis/`
 
@@ -179,7 +223,7 @@ Learning to turn raw data into meaningful insights.
 
 ---
 
-# 🤖 04 — MACHINE LEARNING
+# 🤖 05 — MACHINE LEARNING
 
 Moving from data manipulation toward predictive and intelligent systems.
 
@@ -211,7 +255,7 @@ Moving from data manipulation toward predictive and intelligent systems.
 * Hyperparameter Tuning
 * Model Evaluation
 * ML Pipelines
-* Reproducible experiments
+* Reproducible Experiments
 
 📁 `Machine-Learning/`
 
@@ -219,7 +263,7 @@ Moving from data manipulation toward predictive and intelligent systems.
 
 ---
 
-# 🧠 05 — DEEP LEARNING
+# 🧠 06 — DEEP LEARNING
 
 Moving from traditional machine learning toward neural systems.
 
@@ -250,7 +294,7 @@ Moving from traditional machine learning toward neural systems.
 
 ---
 
-# 👁️ 06 — COMPUTER VISION
+# 👁️ 07 — COMPUTER VISION
 
 Developing systems capable of understanding visual information.
 
@@ -275,7 +319,7 @@ Developing systems capable of understanding visual information.
 
 ---
 
-# 💬 07 — NLP
+# 💬 08 — NLP
 
 Working with language, text, and modern language models.
 
@@ -297,7 +341,7 @@ Working with language, text, and modern language models.
 
 ---
 
-# ✨ 08 — GENERATIVE AI
+# ✨ 09 — GENERATIVE AI
 
 Moving into modern AI systems and applications.
 
@@ -310,11 +354,11 @@ Moving into modern AI systems and applications.
 * Vector Databases
 * Retrieval-Augmented Generation
 * Fine-tuning
-* Model evaluation
+* Model Evaluation
 * Multimodal AI
 * AI Agents
-* Tool calling
-* AI workflows
+* Tool Calling
+* AI Workflows
 
 📁 `Generative-AI/`
 
@@ -322,7 +366,7 @@ Moving into modern AI systems and applications.
 
 ---
 
-# ⚙️ 09 — AI ENGINEERING
+# ⚙️ 10 — AI ENGINEERING
 
 Turning models and AI capabilities into usable software.
 
@@ -331,22 +375,22 @@ Turning models and AI capabilities into usable software.
 * FastAPI
 * REST APIs
 * Authentication
-* Model serving
+* Model Serving
 
 ### Deployment
 
 * Docker
-* Cloud platforms
+* Cloud Platforms
 * CI/CD
-* Environment management
+* Environment Management
 
 ### MLOps
 
-* Experiment tracking
-* Model versioning
-* Data versioning
-* Model monitoring
-* Performance tracking
+* Experiment Tracking
+* Model Versioning
+* Data Versioning
+* Model Monitoring
+* Performance Tracking
 
 📁 `AI-Engineering/`
 
@@ -426,6 +470,10 @@ A failed experiment is valuable when it teaches me **why something failed and ho
 ```text
 AI-ML-Learning/
 │
+├── Python/
+│   ├── Python_Fundamentals_to_OOPS.py
+│   └── README.md
+│
 ├── Numpy/
 │   ├── NumPy_Notes_and_Practice.ipynb
 │   ├── NumPy_Exercises.ipynb
@@ -460,9 +508,21 @@ AI-ML-Learning/
 
 # 📈 CURRENT PROGRESS
 
-## FOUNDATION
+## PROGRAMMING FOUNDATION
 
-* [x] NumPy fundamentals
+* [x] Python Fundamentals
+* [x] Data Structures
+* [x] Functions
+* [x] Exception Handling
+* [x] File Handling
+* [x] Object-Oriented Programming
+* [x] Modules & Packages
+* [x] Virtual Environments
+* [x] Clean & Reusable Code
+
+## DATA & COMPUTING
+
+* [x] NumPy Fundamentals
 * [ ] Pandas
 * [ ] Data Analysis
 * [ ] Statistics
@@ -596,6 +656,9 @@ Because knowing the syntax is only the beginning.
                   CURRENT MISSION
                          │
                          ▼
+                       PYTHON
+                         │
+                         ▼
                        NUMPY
                          │
                          ▼
@@ -689,4 +752,3 @@ The quality bar should keep moving upward.
 ### **This is the build log.**
 
 </div>
-```
