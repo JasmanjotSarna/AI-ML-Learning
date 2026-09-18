@@ -11,9 +11,10 @@
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-11557C?style=for-the-badge&logo=matplotlib&logoColor=white)
+![Seaborn](https://img.shields.io/badge/Seaborn-4C72B0?style=for-the-badge&logo=python&logoColor=white)
 ![Scikit Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
 </div>
@@ -26,20 +27,22 @@ Welcome to my **AI/ML Engineering workspace**.
 
 This repository documents my journey of developing the knowledge, problem-solving ability, and engineering skills required to build intelligent systems.
 
-It contains my:
+It contains:
 
-- 📚 Learning notes
-- 💻 Implementations
+- 📚 Structured learning notes
+- 💻 Practical implementations
 - 🧪 Experiments
+- 📊 Data visualization workflows
 - 🧩 Problem-solving practice
 - 🔬 Technical explorations
-- 🚀 Projects and AI systems as they are built
+- 🚀 End-to-end projects
+- 🤖 Machine Learning & AI systems as they are built
 
 This is not meant to be a collection of copied tutorials.
 
 It is a **build log** — showing how concepts turn into practical engineering skills over time.
 
-> **Learn → Understand → Implement → Experiment → Build → Improve → Ship**
+> **Learn → Understand → Implement → Analyze → Experiment → Build → Improve → Ship**
 
 ---
 
@@ -59,7 +62,10 @@ That means developing skills across the complete pipeline:
                    DATA PREPROCESSING
                             │
                             ▼
-                  FEATURE ENGINEERING
+                  EXPLORATION & ANALYSIS
+                            │
+                            ▼
+                     FEATURE ENGINEERING
                             │
                             ▼
                      MODEL TRAINING
@@ -102,7 +108,7 @@ The objective isn't just to train models.
           NumPy           Deep Learning           APIs
           Pandas          Computer Vision         Docker
         Mathematics       NLP                     Cloud
-        Statistics       Generative AI            MLOps
+       Data Tools        Generative AI            MLOps
              │                  │                  │
              └──────────────────┼──────────────────┘
                                 │
@@ -153,7 +159,6 @@ Building numerical-computing and array-programming fundamentals.
 * Array creation
 * Data types
 * Indexing and slicing
-* Reshaping
 * Array manipulation
 * Numerical operations
 * Vectorized operations
@@ -173,8 +178,7 @@ Learning to work with structured and real-world datasets.
 
 **Focus areas:**
 
-* Series
-* DataFrames
+* Series and DataFrames
 * Data selection and indexing
 * Filtering and sorting
 * Missing-value handling
@@ -196,36 +200,44 @@ Learning to work with structured and real-world datasets.
 
 ---
 
-## 📊 04 — Data Analysis & Visualization
+## 📊 04 — Data Visualization
 
-Turning raw datasets into meaningful insights.
+Transforming numerical and structured data into meaningful visual representations.
 
 **Tools:**
 
 * Matplotlib
 * Seaborn
-* Plotly
 
 **Focus areas:**
 
-* Exploratory Data Analysis
-* Statistical summaries
-* Data visualization
-* Distributions
-* Correlation
-* Outlier detection
-* Feature relationships
-* Data-driven insights
+* Line plots
+* Scatter plots
+* Bar charts
+* Histograms
+* Box plots
+* Subplots
+* Figure customization
+* Distribution plots
+* Joint plots
+* Pair plots
+* Heatmaps
+* Clustermaps
+* Correlation analysis
+* Regression plots
+* Trend visualization
 
-📁 `Data-Analysis/`
+📁 `Data_Visualization/`
 
-**Status:** 🔥 **Current Focus**
+📖 **[Explore Data Visualization →](./Data_Visualization/)**
+
+**Status:** ✅ Completed
 
 ---
 
 # 🤖 05 — MACHINE LEARNING
 
-Moving from data analysis toward predictive and intelligent systems.
+Moving from data manipulation and visualization toward predictive and intelligent systems.
 
 ### Supervised Learning
 
@@ -257,9 +269,9 @@ Moving from data analysis toward predictive and intelligent systems.
 * ML Pipelines
 * Reproducible Experiments
 
-📁 `Machine-Learning/`
+📁 `Machine_Learning/`
 
-**Status:** 🔜 Upcoming
+**Status:** 🔥 **Current Focus**
 
 ---
 
@@ -288,7 +300,7 @@ Moving from traditional machine learning toward neural systems.
 * PyTorch
 * TensorFlow
 
-📁 `Deep-Learning/`
+📁 `Deep_Learning/`
 
 **Status:** 🔜 Upcoming
 
@@ -313,7 +325,7 @@ Developing systems capable of understanding visual information.
 * YOLO
 * Vision Transformers
 
-📁 `Computer-Vision/`
+📁 `Computer_Vision/`
 
 **Status:** 🔜 Upcoming
 
@@ -360,7 +372,7 @@ Moving into modern AI systems and applications.
 * Tool Calling
 * AI Workflows
 
-📁 `Generative-AI/`
+📁 `Generative_AI/`
 
 **Status:** 🔜 Upcoming
 
@@ -377,6 +389,13 @@ Turning models and AI capabilities into usable software.
 * Authentication
 * Model Serving
 
+### Development
+
+* React
+* Next.js
+* Databases
+* APIs
+
 ### Deployment
 
 * Docker
@@ -392,9 +411,231 @@ Turning models and AI capabilities into usable software.
 * Model Monitoring
 * Performance Tracking
 
-📁 `AI-Engineering/`
+📁 `AI_Engineering/`
 
 **Status:** 🔜 Upcoming
+
+---
+
+# 🚀 PROJECTS
+
+This section contains practical projects built by applying concepts from the learning path.
+
+Projects are organized by their primary technical focus.
+
+---
+
+## 📊 Data Analysis
+
+Projects involving:
+
+* Data exploration
+* Data cleaning
+* Data transformation
+* Visualization
+* Statistical analysis
+* Insight extraction
+
+### 🏏 IPL Data Analysis
+
+An exploratory analysis of IPL match data using Python and data analysis libraries.
+
+**Focus:**
+
+* Data exploration
+* Data cleaning
+* Data manipulation
+* Statistical analysis
+* Team and player analysis
+* Match and venue analysis
+* Data visualization
+* Insight extraction
+
+**Technologies:**
+
+`Python` `Pandas` `NumPy` `Matplotlib` `Seaborn`
+
+📁 `Projects/Data_Analysis/IPL_Data_Analysis/`
+
+**Status:** ✅ Completed
+
+---
+
+## 🤖 Machine Learning
+
+Projects involving:
+
+* Data preprocessing
+* Feature engineering
+* Model development
+* Model evaluation
+* Optimization
+
+**More projects coming soon.**
+
+---
+
+## 🧠 Artificial Intelligence
+
+Projects involving:
+
+* Computer Vision
+* NLP
+* Deep Learning
+* Intelligent applications
+
+**More projects coming soon.**
+
+---
+
+## ✨ Generative AI
+
+Projects involving:
+
+* LLM applications
+* RAG
+* AI Agents
+* Multimodal AI
+* AI workflows
+
+**More projects coming soon.**
+
+---
+
+## ⚙️ AI Engineering
+
+End-to-end systems combining:
+
+* AI/ML models
+* APIs
+* Databases
+* Frontend applications
+* Backend services
+* Deployment
+
+**More projects coming soon.**
+
+---
+
+# 📂 REPOSITORY STRUCTURE
+
+```text
+AI-ML-Learning/
+│
+├── Python/
+│   ├── Python_Fundamentals_to_OOPS.py
+│   └── README.md
+│
+├── Numpy/
+│   ├── NumPy_Notes_and_Practice.ipynb
+│   ├── NumPy_Exercises.ipynb
+│   └── README.md
+│
+├── Pandas/
+│   ├── Pandas_Core_Operations.ipynb
+│   ├── Feature_Extraction_with_Pandas.ipynb
+│   ├── Countries_Data_Analysis.ipynb
+│   └── README.md
+│
+├── Data_Visualization/
+│   ├── Matplotlib_Fundamentals.ipynb
+│   ├── Seaborn_Distribution_Plots.ipynb
+│   ├── Seaborn_Matrix_Plots.ipynb
+│   ├── Seaborn_Regression_Plots.ipynb
+│   └── README.md
+│
+├── Machine_Learning/
+│
+├── Deep_Learning/
+│
+├── Computer_Vision/
+│
+├── NLP/
+│
+├── Generative_AI/
+│
+├── AI_Engineering/
+│
+├── Projects/
+│   ├── Data_Analysis/
+│   │   └── IPL_Data_Analysis/
+│   │
+│   ├── Machine_Learning/
+│   │
+│   ├── AI/
+│   │
+│   ├── Generative_AI/
+│   │
+│   └── AI_Engineering/
+│
+└── README.md
+```
+
+---
+
+# 📈 CURRENT PROGRESS
+
+## PROGRAMMING FOUNDATION
+
+* [x] Python Fundamentals
+* [x] Data Structures
+* [x] Functions
+* [x] Exception Handling
+* [x] File Handling
+* [x] Object-Oriented Programming
+* [x] Modules & Packages
+* [x] Virtual Environments
+* [x] Clean & Reusable Code
+
+## DATA & COMPUTING
+
+* [x] NumPy
+* [x] Pandas
+* [x] Matplotlib
+* [x] Seaborn
+
+## PROJECTS
+
+* [x] IPL Data Analysis
+
+## MACHINE LEARNING
+
+* [ ] Regression
+* [ ] Classification
+* [ ] Clustering
+* [ ] Feature Engineering
+* [ ] Model Evaluation
+* [ ] Cross Validation
+* [ ] Hyperparameter Tuning
+* [ ] ML Pipelines
+
+## DEEP LEARNING
+
+* [ ] Neural Networks
+* [ ] Backpropagation
+* [ ] CNNs
+* [ ] Transfer Learning
+* [ ] PyTorch
+* [ ] Transformers
+
+## AI
+
+* [ ] NLP
+* [ ] Generative AI
+* [ ] RAG
+* [ ] Vector Databases
+* [ ] Fine-Tuning
+* [ ] AI Agents
+* [ ] Multimodal AI
+
+## ENGINEERING
+
+* [ ] FastAPI
+* [ ] Docker
+* [ ] Cloud Deployment
+* [ ] MLOps
+* [ ] CI/CD
+* [ ] Model Monitoring
 
 ---
 
@@ -465,147 +706,6 @@ A failed experiment is valuable when it teaches me **why something failed and ho
 
 ---
 
-# 📂 REPOSITORY STRUCTURE
-
-```text
-AI-ML-Learning/
-│
-├── Python/
-│   ├── Python_Fundamentals_to_OOPS.py
-│   └── README.md
-│
-├── Numpy/
-│   ├── NumPy_Notes_and_Practice.ipynb
-│   ├── NumPy_Exercises.ipynb
-│   └── README.md
-│
-├── Pandas/
-│   ├── Pandas_Core_Operations.ipynb
-│   ├── Feature_Extraction_with_Pandas.ipynb
-│   ├── Countries_Data_Analysis.ipynb
-│   └── README.md
-│
-├── Data-Analysis/
-│
-├── Machine-Learning/
-│   ├── Regression/
-│   ├── Classification/
-│   ├── Clustering/
-│   └── Experiments/
-│
-├── Deep-Learning/
-│
-├── Computer-Vision/
-│
-├── NLP/
-│
-├── Generative-AI/
-│
-├── AI-Engineering/
-│
-└── README.md
-```
-
-> Each major area will have its own documentation as the repository grows.
-
----
-
-# 📈 CURRENT PROGRESS
-
-## PROGRAMMING FOUNDATION
-
-* [x] Python Fundamentals
-* [x] Data Structures
-* [x] Functions
-* [x] Exception Handling
-* [x] File Handling
-* [x] Object-Oriented Programming
-* [x] Modules & Packages
-* [x] Virtual Environments
-* [x] Clean & Reusable Code
-
-## DATA & COMPUTING
-
-* [x] NumPy Fundamentals
-* [x] Pandas
-* [ ] Data Analysis
-* [ ] Statistics
-* [ ] Linear Algebra
-* [ ] Probability
-
-## MACHINE LEARNING
-
-* [ ] Regression
-* [ ] Classification
-* [ ] Clustering
-* [ ] Feature Engineering
-* [ ] Model Evaluation
-* [ ] Cross Validation
-* [ ] Hyperparameter Tuning
-* [ ] ML Pipelines
-
-## DEEP LEARNING
-
-* [ ] Neural Networks
-* [ ] Backpropagation
-* [ ] CNNs
-* [ ] Transfer Learning
-* [ ] PyTorch
-* [ ] Transformers
-
-## AI
-
-* [ ] NLP
-* [ ] Generative AI
-* [ ] RAG
-* [ ] Vector Databases
-* [ ] Fine-Tuning
-* [ ] AI Agents
-* [ ] Multimodal AI
-
-## ENGINEERING
-
-* [ ] FastAPI
-* [ ] Docker
-* [ ] Cloud Deployment
-* [ ] MLOps
-* [ ] CI/CD
-* [ ] Model Monitoring
-
----
-
-# 🛠️ TECHNOLOGY STACK
-
-### Languages
-
-`Python` `C/C++` `JavaScript`
-
-### Data & Scientific Computing
-
-`NumPy` `Pandas` `Matplotlib` `Seaborn`
-
-### Machine Learning
-
-`Scikit-learn` `XGBoost`
-
-### Deep Learning
-
-`PyTorch` `TensorFlow`
-
-### Computer Vision
-
-`OpenCV` `MediaPipe` `YOLO`
-
-### Generative AI
-
-`LLMs` `Transformers` `RAG` `Embeddings` `Vector Databases` `AI Agents`
-
-### Engineering
-
-`Git` `GitHub` `Google Colab` `VS Code` `FastAPI` `Docker` `Cloud`
-
----
-
 # 📊 LEARNING → ENGINEERING
 
 The progression I'm building toward:
@@ -615,6 +715,9 @@ The progression I'm building toward:
               │
               ▼
           💻 CODE
+              │
+              ▼
+         📊 ANALYSIS
               │
               ▼
          🧪 EXPERIMENTS
@@ -669,7 +772,7 @@ Because knowing the syntax is only the beginning.
                       PANDAS
                          │
                          ▼
-                  DATA ANALYSIS
+                DATA VISUALIZATION
                          │
                          ▼
                 MACHINE LEARNING
@@ -696,10 +799,12 @@ Because knowing the syntax is only the beginning.
 ### Current Stage
 
 ```text
-🐍 Python        🟢 In Progress
-🔢 NumPy         ✅ Completed
-🐼 Pandas        ✅ Completed
-📊 Data Analysis 🔥 CURRENT
+🐍 Python             🟢 In Progress
+🔢 NumPy              ✅ Completed
+🐼 Pandas             ✅ Completed
+📊 Data Visualization ✅ Completed
+🏏 IPL Data Analysis  ✅ Completed
+🤖 Machine Learning   🔥 CURRENT
 ```
 
 **One layer at a time.**
@@ -723,6 +828,8 @@ IDEA
  ↓
 DATA
  ↓
+ANALYSIS
+ ↓
 MODEL
  ↓
 APPLICATION
@@ -744,7 +851,9 @@ This repository will evolve with my skills.
 
 Early entries may be notes and implementations.
 
-Later entries will become experiments.
+Then practical analysis.
+
+Then experiments.
 
 Then complete systems.
 
@@ -765,6 +874,4 @@ The quality bar should keep moving upward.
 ### **This is the build log.**
 
 </div>
-
-
 
